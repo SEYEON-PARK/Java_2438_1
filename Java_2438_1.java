@@ -14,12 +14,12 @@ public class Main{ // Main 클래스
         int N=a.nextInt(); // 사용자로부터 정수 입력받기
         int num=1; // 별의 개수를 저장할 변수 선언 및 초기화
         
-        for(int i=0;i<N;i++){
-            for(int j=0;j<num;j++){
-                System.out.print("*");
+        for(int i=0;i<N;i++){ // i가 0부터 N-1까지 1씩 증가하며 반복
+            for(int j=0;j<num;j++){ 
+                System.out.print("*"); // 별 출력하기
             }
-            num++;
-            System.out.println();
+            num++; // num에 1 더하기
+            System.out.println(); // 한 줄 
         }
     }
 }
